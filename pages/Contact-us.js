@@ -79,7 +79,7 @@ const ContactPage = () => {
           </header>
           <div className="container">
               <form onSubmit={(e) => onSubmitForm(e)}>
-              <div class="row mb-3">
+              <div className="row mb-3">
                   <div>    <label htmlFor="name" className="col-sm-2 col-form-label mt-2">Name</label>
 </div>
                   <input
@@ -104,7 +104,7 @@ const ContactPage = () => {
                       required
                   /></div>
                   <div className="input-group mt-5">
-                  <span class="input-group-text">Message</span>
+                  <span className="input-group-text">Message</span>
                   <textarea
                       id='message'
                       type='text'
@@ -115,7 +115,7 @@ const ContactPage = () => {
                       rows='5'
                       required
                   /></div>
-                <input class="btn btn-primary mt-5" type="submit" value="Submit"/>
+                <input className="btn btn-primary mt-5" type="submit" value="Submit"/>
 
                   {form.state === 'loading' ? (
                       <div>Sending....</div>
