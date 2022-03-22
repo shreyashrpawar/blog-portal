@@ -55,7 +55,7 @@ const query = groq`*[_type == "post" && publishedAt < now()] | order(publishedAt
    title,
    slug,
    publishedAt,
-   "categories": categories[0]->title
+   "categories": categories[0]->slug.current
  }
  `
 

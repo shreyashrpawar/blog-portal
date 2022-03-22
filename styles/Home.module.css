@@ -113,24 +113,30 @@
     display: flex;
     flex-direction: row;
   }
-  .articlediv2 {
-    order: 3;
-    margin: 1rem;
-    min-width: 15%;
-    text-align: center;
-    align-self: flex-start;
+  .baherflex {
+    display: flex;
+    flex-direction: column;
     position: -webkit-sticky;
     position: sticky;
+    align-self: flex-start;
     top: 0;
+    flex-grow: 1;
+    overflow: auto;
+    height: calc(130vh - 127px);
+    min-width: 15%;
+  }
+
+  .articlediv2 {
+    margin: 1rem;
+
+    text-align: center;
+    align-self: flex-start;
   }
   .articlediv1 {
     margin: 1rem;
-    min-width: 15%;
+
     text-align: center;
     align-self: flex-start;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
   }
   .mainarticle p {
     margin-top: 0px;

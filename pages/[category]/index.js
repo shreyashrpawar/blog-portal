@@ -13,13 +13,14 @@ const Categories = ({blogs}) => {
       <meta name="description" content={blogs[0].description} />
       <meta property="og:title" content={blogs[0].title} />
   </Head>
+
 {blogs && blogs.map((blog)=>
 <>
   <h1 className='text-center'>All Posts in {`${blog.title}`} </h1>
   <p>{`${blog.description}`}</p>
   {blog.posts && blog.posts.map(
     (post)=>(
-      <Link key={post._id} href={`${blog.title}/${post.slug}`}>
+      <Link key={post._id} href={`${blog.slug}/${post.slug}`}>
         <a>
       <div className='text-center m-5 lead'>
         <ul>
@@ -40,7 +41,7 @@ const Categories = ({blogs}) => {
 
 
 export async function getStaticPaths() {
-const categoryparams=groq`*[_type=="category"].title`
+const categoryparams=groq`*[_type=="category"].slug.current`
 const categoryparam = await client.fetch(categoryparams)
     const paths = categoryparam.map((category) => ({
         params: { category: category },
@@ -51,10 +52,11 @@ const categoryparam = await client.fetch(categoryparams)
 
 
 
-const qury123=groq`*[_type=="category" && title==$category]{
+const qury123=groq`*[_type=="category" && slug.current==$category]{
     _id,
     title,
     description,
+    "slug":slug.current,
     "posts": *[_type == "post" && references(^._id)]{
     "slug":slug.current,
     title,

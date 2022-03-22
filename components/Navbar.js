@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from 'react';
 
 
+
 const Navbar = () => {
 
     const [style,setStyle]= useState("nav-div3")
@@ -30,7 +31,6 @@ const Navbar = () => {
 
     return ( 
         <header className="nav-header">
-          
             <div className="nav-div1">
                 <div className="nav-div2">
                 <Link href={'/'}>WebDocs</Link>
@@ -48,6 +48,7 @@ const Navbar = () => {
              <Link href={'/NextJS'}>NextJS</Link>
                 <Link href={'/CSS'}>CSS</Link>
                 <Link href={'/Rust'}>Rust</Link>
+                <Link href={'/artificial-intelligance'}>Artificial Intelligance</Link>
                 </div> <Link className="nav-links"  href={'/Contact-us'}>Contact</Link>
                 <Link className="nav-links" href={'/About-us'}>About</Link>
                 <Link className="nav-links" href={'/Privacy-Policy'}>Privacy Policy</Link>

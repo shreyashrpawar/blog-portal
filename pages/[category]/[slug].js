@@ -22,6 +22,14 @@ const serializers = {
       }
       return <SyntaxHighlighter language={language || 'text'}>{code}</SyntaxHighlighter>
     }
+  },
+  marks:{
+    link: ({children, mark})=>
+    mark.seo ?(
+      <a href={mark.href} target="_blank" rel='noopener noreferer nofollow'>{children}</a>
+    ):(
+      <a href={mark.href}>{children}</a>
+    )
   }
 }
 
@@ -91,6 +99,16 @@ const Post = ({post, categorylist, relatedArticles}) => {
     <Image onClick={changeClass} src={"/sidebar.svg"} width="32px" height="32px"></Image></div>
     <article className={styles.articletag}>
       <div className={setflex}>
+         <div className={setcate}>
+<h4 className='lead'>Categories</h4>
+<ul className='mt-3'>
+  {categorylist && categorylist.map(
+    (cat)=>(
+      <Link href={`/${cat.title}`} key={cat._id}><a>  <li className='m-3 display-7'>{cat.title}</li></a></Link>
+    )
+  )}
+</ul>
+      </div>
       <div className={setlinks}>
 <h4 className='lead'>Related Articles</h4>
 <ul>
@@ -101,16 +119,7 @@ const Post = ({post, categorylist, relatedArticles}) => {
   )}
 </ul>
       </div>
-      <div className={setcate}>
-<h4 className='lead'>Categories</h4>
-<ul className='mt-3'>
-  {categorylist && categorylist.map(
-    (cat)=>(
-      <Link href={`/${cat.title}`} key={cat._id}><a>  <li className='m-3 display-7'>{cat.title}</li></a></Link>
-    )
-  )}
-</ul>
-      </div></div>
+     </div>
     <main id={style.mainbody} className={styles.mainarticle}>
         <div className='m-5 text-danger'>
       <h1>{title}</h1>
@@ -143,11 +152,11 @@ const Post = ({post, categorylist, relatedArticles}) => {
 
 export async function getStaticPaths() {
 
-const Indexedcategory=groq`*[_type=="category"].title`
+const Indexedcategory=groq`*[_type=="category"].slug.current`
 const Indexedcategory1=await client.fetch(Indexedcategory);
 const justtrial=groq`*[_type=="post"]{
   "slug":slug.current,
-  "categories":categories[]->title
+  "categories":categories[]->slug.current,
 }`
 const justtrial1=await client.fetch(justtrial)
 
