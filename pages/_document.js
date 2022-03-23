@@ -24,6 +24,8 @@ class MyDocument extends Document {
           `,
             }}
           />
+     
+     <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
             
            
             <link rel="icon" type="image/x-icon" href="/favicon.ico" />

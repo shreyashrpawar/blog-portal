@@ -5,6 +5,7 @@ import nProgress from "nprogress";
 import "nprogress/nprogress.css"
 import "../styles/nprogress.css"
 import { Router } from "next/router";
+import Adsence from "../components/Adsence";
 
 
 Router.events.on("routeChangeStart", nProgress.start);
@@ -14,6 +15,7 @@ Router.events.on("routeChangeComplete", nProgress.done);
 function MyApp({ Component, pageProps }) {
   return  (  <Layout>
   <Component {...pageProps}/>
+<Adsence/>
 </Layout>
 )
 }

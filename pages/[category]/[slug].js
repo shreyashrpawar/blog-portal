@@ -10,6 +10,7 @@ import { node } from 'prop-types';
 import Head from 'next/head';
 import Image from 'next/image'
 import { useState } from 'react';
+import Adsense from '../../components/Adsence'
 
 
 
@@ -26,7 +27,7 @@ const serializers = {
   marks:{
     link: ({children, mark})=>
     mark.seo ?(
-      <a href={mark.href} target="_blank" rel='noopener noreferer nofollow'>{children}</a>
+      <a href={mark.href} target="_blank" rel='noopener noreferrer nofollow'>{children}</a>
     ):(
       <a href={mark.href}>{children}</a>
     )
@@ -138,6 +139,7 @@ const Post = ({post, categorylist, relatedArticles}) => {
     {...client.config()}
     serializers={serializers}
     />
+    <Adsense/>
  </main>
     </article>
     </>
