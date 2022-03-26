@@ -27,8 +27,8 @@ class MyDocument extends Document {
      
      <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
             
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9684334826790570"
-     crossorigin="anonymous"></script>
+     {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9684334826790570"
+     crossOrigin="anonymous"></script> */}
             <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/favicon.ico"></link>
   <meta name="google-site-verification" content="ZycfOA0TWx-56phJFWCR7JmWkdSR8AOa_qKYjs7doEk" />

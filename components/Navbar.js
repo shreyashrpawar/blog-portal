@@ -48,6 +48,7 @@ const Navbar = () => {
              <Link href={'/NextJS'}>NextJS</Link>
                 <Link href={'/CSS'}>CSS</Link>
                 <Link href={'/Rust'}>Rust</Link>
+                <Link href={'/javascript'}>Javascript</Link>
                 </div> <Link className="nav-links"  href={'/Contact-us'}>Contact</Link>
                 <Link className="nav-links" href={'/About-us'}>About</Link>
                 <Link className="nav-links" href={'/Privacy-Policy'}>Privacy Policy</Link>

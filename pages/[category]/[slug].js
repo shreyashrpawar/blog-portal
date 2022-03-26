@@ -86,6 +86,7 @@ const Post = ({post, categorylist, relatedArticles}) => {
     title = 'Missing title',
     name = 'Missing name',
     categories,
+    mainImage,
     body = []
   } = post
   return (
@@ -131,7 +132,17 @@ const Post = ({post, categorylist, relatedArticles}) => {
         </ul>
       )}
     </div>
-
+    {mainImage && (
+        <div>
+          <img
+            src={urlFor(mainImage)
+              .width(500)
+              .auto('format')
+              .url()}
+            alt={`${name}'s picture`}
+          />
+        </div>
+      )}
       
     <BlockContent
     blocks={body}
@@ -189,6 +200,7 @@ const query = groq`*[_type == "post" && slug.current == $slug][0]{
   title,
   "name": author->name,
   "categories": categories[]->title,
+  mainImage,
   body
 }`
 const categoryquery=groq` *[_type == "category" ]{
