@@ -87,6 +87,7 @@ const Post = ({post, categorylist, relatedArticles}) => {
     name = 'Missing name',
     categories,
     mainImage,
+    description='Missing description',
     body = []
   } = post
   return (
@@ -94,7 +95,7 @@ const Post = ({post, categorylist, relatedArticles}) => {
 
     <Head>
     <title>{title}</title>
-        {/* <meta name="description" content={description} /> */}
+        <meta name="description" content={description} />
         <meta property="og:title" content={title} />
     </Head>
     <div className={sidebar}>
@@ -198,6 +199,7 @@ testing(),
 const query = groq`*[_type == "post" && slug.current == $slug][0]{
   _id,
   title,
+  description,
   "name": author->name,
   "categories": categories[]->title,
   mainImage,
