@@ -10,7 +10,6 @@ import { node } from 'prop-types';
 import Head from 'next/head';
 import Image from 'next/image'
 import { useState } from 'react';
-import Adsense from '../../components/Adsence'
 
 
 
@@ -114,7 +113,7 @@ const Post = ({post, categorylist, relatedArticles}) => {
       </div>
       <div className={setlinks}>
 <h4 className='lead'>Related Articles</h4>
-<ul>
+<ul>;
 {relatedArticles.map(
     (Linknurl)=>(
      <Link key={Linknurl._id} href={`${Linknurl.relatedUrl}`} ><a><li className='m-3 display-7'>{Linknurl.relatedtitle}</li></a></Link> 
@@ -151,7 +150,7 @@ const Post = ({post, categorylist, relatedArticles}) => {
     {...client.config()}
     serializers={serializers}
     />
-    <Adsense/>
+
  </main>
     </article>
     </>

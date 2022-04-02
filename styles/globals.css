@@ -143,6 +143,10 @@ a {
   position: sticky;
   top: 0;
 }
+.cofee {
+  background-color: white;
+  cursor: pointer;
+}
 
 @media screen and (min-width: 426) and (max-width: 768) {
   .footerdiv {

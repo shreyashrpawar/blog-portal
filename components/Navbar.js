@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from 'react';
-
+import Image from 'next/image';
 
 
 const Navbar = () => {
@@ -54,6 +54,7 @@ const Navbar = () => {
                 <Link className="nav-links" href={'/Privacy-Policy'}>Privacy Policy</Link>
                 <Link className="nav-links" href={'/Disclaimer'}>Disclaimer</Link>
                 <Link className="nav-links" href={'/Terms-and-Conditions'}>Terms and Conditions</Link>
+                <Link className="nav-links" href={'https://www.buymeacoffee.com/shreyashrp'}><Image className="cofee" src={"/buyme.svg"} width="32px" height="32px"></Image></Link>
                 </div>
                
             </div>
