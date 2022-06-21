@@ -13,7 +13,7 @@ const ContactPage = () => {
          <article className="px-6 md:px-0 articles m-5 p-5">
         <header>
           <h1 className="text-3xl md:text-5xl dark:text-white text-center mb-12">
-            {"About us- greedytaker"}
+            {"About us- greedytaker blogs"}
           </h1>       
         </header>
         <main>
