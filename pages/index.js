@@ -45,7 +45,8 @@ const Home = ({posts}) => {
         )}
         </ul>
         </section>
-        <amp-ad width="100vw" height="320"
+  
+        </main>      <amp-ad width="100vw" height="320"
      type="adsense"
      data-ad-client="ca-pub-9684334826790570"
      data-ad-slot="1088524611"
@@ -53,7 +54,6 @@ const Home = ({posts}) => {
      data-full-width="">
   <div overflow=""></div>
 </amp-ad>
-        </main>
         </>
      );
 }
