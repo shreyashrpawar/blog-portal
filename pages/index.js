@@ -3,7 +3,6 @@ import Link from 'next/link'
 import groq from 'groq'
 import client from '../lib/sanity'
 import Head from 'next/head';
-import Adsense from '../components/Adsense';
 
 
 const Home = ({posts}) => {
@@ -46,7 +45,6 @@ const Home = ({posts}) => {
         )}
         </ul>
         </section>
- <Adsense />
         </main> 
         </>
      );
