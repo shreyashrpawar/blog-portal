@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Adsense from "./Adsense";
 
 
 const Layout = ({children}) => {
@@ -7,7 +8,7 @@ const Layout = ({children}) => {
         <>
         <Navbar/>
         {children}
-
+<Adsense/>
         <Footer/>
         </>
      );
