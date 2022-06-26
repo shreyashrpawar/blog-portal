@@ -7,6 +7,7 @@ const Layout = ({children}) => {
         <>
         <Navbar/>
         {children}
+        <Adsense/>
         <Footer/>
         </>
      );
