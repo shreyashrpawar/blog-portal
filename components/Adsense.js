@@ -16,7 +16,7 @@ export default function Adsense() {
   }, []);
 
   return (
-<ins class="adsbygoogle"
+<ins className="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-9684334826790570"
      data-ad-slot="2122721910"
