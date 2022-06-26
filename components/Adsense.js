@@ -9,7 +9,7 @@ export default function Adsense(...props) {
     return(
         <div key={currentPath}>
         { /*START horizonalAds Google Adsense */ }
-          <ins class="adsbygoogle"
+          <ins className="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-9684334826790570"
      data-ad-slot="2122721910"
