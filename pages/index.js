@@ -3,6 +3,7 @@ import Link from 'next/link'
 import groq from 'groq'
 import client from '../lib/sanity'
 import Head from 'next/head';
+import Adsense from '../components/Adsense';
 
 
 const Home = ({posts}) => {
@@ -45,15 +46,8 @@ const Home = ({posts}) => {
         )}
         </ul>
         </section>
-  
-        </main>      <amp-ad width="100vw" height="320"
-     type="adsense"
-     data-ad-client="ca-pub-9684334826790570"
-     data-ad-slot="1088524611"
-     data-auto-format="rspv"
-     data-full-width="">
-  <div overflow=""></div>
-</amp-ad>
+ <Adsense />
+        </main> 
         </>
      );
 }
