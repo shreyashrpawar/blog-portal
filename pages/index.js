@@ -3,7 +3,7 @@ import Link from 'next/link'
 import groq from 'groq'
 import client from '../lib/sanity'
 import Head from 'next/head';
-import Adsense from './_adsense';
+
 
 
 const Home = ({posts}) => {
@@ -24,7 +24,7 @@ const Home = ({posts}) => {
 </section>
         </div>
         </div>
-<Adsense/>
+
         <section className={styles.latestpost}>
           <h2>
             Recent posts
