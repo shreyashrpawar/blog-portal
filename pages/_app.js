@@ -1,10 +1,11 @@
-import Layout from '../components/Layout'
+import Layout from '../components/Layout';
 import 'bootstrap/dist/css/bootstrap.css'; // Add this line
-import '../styles/globals.css'
+import '../styles/globals.css';
 import nProgress from "nprogress";
-import "nprogress/nprogress.css"
-import "../styles/nprogress.css"
+import "nprogress/nprogress.css";
+import "../styles/nprogress.css";
 import { Router } from "next/router";
+import Adsense from '../components/Adsense'
 
 
 Router.events.on("routeChangeStart", nProgress.start);
@@ -18,7 +19,7 @@ function MyApp({ Component, pageProps }) {
     
     <Layout>
   <Component {...pageProps}/>
-
+<Adsense/>
 </Layout>
 </>
 )
