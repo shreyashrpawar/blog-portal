@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import styles from "../styles/Home.module.css"
 
 export default function Adsense() {
   const loadAds = () => {
@@ -17,7 +18,7 @@ export default function Adsense() {
 
   return (
 <amp-ad width="100vw" height="320"
-    className="adsense"
+    className={styles.adsense}
      type="adsense"
      data-ad-client="ca-pub-9684334826790570"
      data-ad-slot="2122721910"
