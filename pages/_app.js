@@ -5,7 +5,7 @@ import nProgress from "nprogress";
 import "nprogress/nprogress.css";
 import "../styles/nprogress.css";
 import { Router } from "next/router";
-import Adsense from '../components/Adsense'
+
 
 
 Router.events.on("routeChangeStart", nProgress.start);
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
     
     <Layout>
   <Component {...pageProps}/>
-<Adsense/>
+
 </Layout>
 </>
 )
