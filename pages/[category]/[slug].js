@@ -10,6 +10,7 @@ import { node } from 'prop-types';
 import Head from 'next/head';
 import Image from 'next/image'
 import { useState } from 'react';
+import Adsense from '../_adsense';
 
 
 
@@ -143,7 +144,7 @@ const Post = ({post, categorylist, relatedArticles}) => {
           />
         </div>
       )}
-      
+      <Adsense/>
     <BlockContent
     blocks={body}
     imageOptions={{ptComponents}}
