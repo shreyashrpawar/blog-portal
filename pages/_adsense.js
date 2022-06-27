@@ -17,6 +17,7 @@ export default function Adsense() {
 
   return (
 <amp-ad width="100vw" height="320"
+    className="adsense"
      type="adsense"
      data-ad-client="ca-pub-9684334826790570"
      data-ad-slot="2122721910"
