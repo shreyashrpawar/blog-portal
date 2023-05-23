@@ -5,49 +5,49 @@ const PrivacyPolicy = () => {
     return(
 <>
 <Head>
-<title>{"Terms and Conditions- greedytaker"}</title>
-      <meta name="description" content={"Greedytaker will always remain free for you and also we do not take your data. So, We do not have any specific terms and conditions"} />
-      <meta property="og:title" content={"Terms and Conditions- greedytaker"} />
+<title>{"Terms and Conditions- shreyashpawar"}</title>
+      <meta name="description" content={"Shreyashpawar will always remain free for you and also we do not take your data. So, We do not have any specific terms and conditions"} />
+      <meta property="og:title" content={"Terms and Conditions- shreyashpawar"} />
 </Head>
          <article className="px-6 md:px-0 articles m-5 p-5">
         <header>
           <h1 className="text-3xl md:text-5xl dark:text-white text-center mb-12">
-            {"Terms and Conditions- greedytaker"}
+            {"Terms and Conditions- shreyashpawar"}
           </h1>       
         </header>
         <main>
           <article className="prose dark:prose-dark newarticle m-12"> 
           <h2><strong>Terms and Conditions</strong></h2>
 
-<p>Welcome to GreedyTaker Blogs!</p>
+<p>Welcome to Shreyashpawar Blogs!</p>
 
-<p>These terms and conditions outline the rules and regulations for the use of GreedyTaker Website, located at https://greedytaker.in.</p>
+<p>These terms and conditions outline the rules and regulations for the use of ShreyashPawar Website, located at https://shreyashpawar.me.</p>
 
-<p>By accessing this website we assume you accept these terms and conditions. Do not continue to use GreedyTaker Blogs if you do not agree to take all of the terms and conditions stated on this page.</p>
+<p>By accessing this website we assume you accept these terms and conditions. Do not continue to use ShreyashPawar Blogs if you do not agree to take all of the terms and conditions stated on this page.</p>
 
 <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: Client, You and Your refers to you, the person log on this website and compliant to the Companies terms and conditions. The Company, Ourselves, We, Our and Us, refers to our Company. Parts, Parties, or Us, refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Clients needs in respect of provision of the Companies stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
 
 <h3><strong>Cookies</strong></h3>
 
-<p>We employ the use of cookies. By accessing GreedyTaker Blogs, you agreed to use cookies in agreement with the GreedyTaker Privacy Policy. </p>
+<p>We employ the use of cookies. By accessing Shreyashpawar Blogs, you agreed to use cookies in agreement with the ShreyashPawar Privacy Policy. </p>
 
 <p>Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
 
 <h3><strong>License</strong></h3>
 
-<p>Unless otherwise stated, GreedyTaker and/or its licensors own the intellectual property rights for all material on GreedyTaker Blogs. All intellectual property rights are reserved. You may access this from GreedyTaker Blogs for your own personal use subjected to restrictions set in these terms and conditions.</p>
+<p>Unless otherwise stated, ShreyashPawar and/or its licensors own the intellectual property rights for all material on ShreyashPawar Blogs. All intellectual property rights are reserved. You may access this from ShreyashPawar Blogs for your own personal use subjected to restrictions set in these terms and conditions.</p>
 
 <p>You must not:</p>
 <ul>
-    <li>Republish material from GreedyTaker Blogs</li>
-    <li>Sell, rent or sub-license material from GreedyTaker Blogs</li>
-    <li>Reproduce, duplicate or copy material from GreedyTaker Blogs</li>
-    <li>Redistribute content from GreedyTaker Blogs</li>
+    <li>Republish material from ShreyashPawar Blogs</li>
+    <li>Sell, rent or sub-license material from ShreyashPawar Blogs</li>
+    <li>Reproduce, duplicate or copy material from ShreyashPawar Blogs</li>
+    <li>Redistribute content from ShreyashPawar Blogs</li>
 </ul>
 
-<p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. GreedyTaker does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of GreedyTaker,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, GreedyTaker shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
+<p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. ShreyashPawar does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of ShreyashPawar,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, ShreyashPawar shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
 
-<p>GreedyTaker reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
+<p>ShreyashPawar reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
 
 <p>You warrant and represent that:</p>
 
@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
     <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
 </ul>
 
-<p>You hereby grant GreedyTaker a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
+<p>You hereby grant ShreyashPawar a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
 
 <h3><strong>Hyperlinking to our Content</strong></h3>
 
@@ -90,7 +90,7 @@ const PrivacyPolicy = () => {
 
 <p>These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.</p>
 
-<p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to GreedyTaker. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
+<p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to ShreyashPawar. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
 
 <p>Approved organizations may hyperlink to our Website as follows:</p>
 
@@ -100,7 +100,7 @@ const PrivacyPolicy = () => {
     <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.</li>
 </ul>
 
-<p>No use of GreedyTaker logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
+<p>No use of ShreyashPawar logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
 
 <h3><strong>iFrames</strong></h3>
 

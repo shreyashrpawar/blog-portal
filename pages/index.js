@@ -11,7 +11,7 @@ const Home = ({posts}) => {
 
     return ( <>
       <Head>
-      <title>Greedytaker learning to code</title>
+      <title>ShreyashPawar learning to code</title>
 <meta name="description" content="The best platform to learn and solve queries of web developement"/>
 <meta name="keywords" content="HTML, CSS, Javascipt"/>
       </Head>
@@ -19,7 +19,7 @@ const Home = ({posts}) => {
         <div className={styles.Homediv}>
         <div className={styles.Homediv1}>
 <section>
-    <h1>Web development docs <br/> by WebDocs</h1>
+    <h1>Web development docs <br/> by ShreyashPawar</h1>
     <p>Learning the web development technologies from scratch.</p>
 </section>
         </div>

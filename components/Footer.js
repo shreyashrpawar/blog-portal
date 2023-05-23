@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footermain">
 <div className="footerdiv">
     <div className="footerdiv1">
-<Link href={'/'}>WebDocs</Link>
+<Link href={'/'}>ShreyashPawar</Link>
 <p>A simple way to learn web</p>
 <p>Copyright&#169; 2022</p>
 </div>

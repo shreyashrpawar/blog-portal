@@ -33,7 +33,7 @@ const Navbar = () => {
         <header className="nav-header">
             <div className="nav-div1">
                 <div className="nav-div2">
-                <Link href={'/'}>WebDocs</Link>
+                <Link href={'/'}>Shreyashpawar</Link>
                 </div>
                 <button className="toggleicon" onClick={changeClass}>
                     <span className="listicon">

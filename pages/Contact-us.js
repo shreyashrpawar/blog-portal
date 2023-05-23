@@ -64,17 +64,17 @@ const ContactPage = () => {
    <>
    <Head>
 
-<title>{"Contact us- greedytaker"}</title>
-      <meta name="description" content={"You can ask us anything without any hegitation. Greedytaker is always there for you"} />
-      <meta property="og:title" content={"Contact us- greedytaker"} />
+<title>{"Contact us- shreyashpawar"}</title>
+      <meta name="description" content={"You can ask us anything without any hegitation. Shreyashpawar is always there for you"} />
+      <meta property="og:title" content={"Contact us- shreyashpawar"} />
 
    </Head>
           <header>
             <h1 className="text-3xl md:text-5xl dark:text-white text-center mb-12">
-              {"Contact us- greedytaker"}
+              {"Contact us- shreyashpawar"}
             </h1>
            
-              <p className="text-xl mb-4 text-center">{"You can ask us anything without any hegitation. Greedytaker is always there for you"}</p>
+              <p className="text-xl mb-4 text-center">{"You can ask us anything without any hegitation. Shreyashpawar is always there for you"}</p>
             
           </header>
           <div className="container">
