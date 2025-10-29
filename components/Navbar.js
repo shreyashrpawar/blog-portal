@@ -43,16 +43,16 @@ const Navbar = () => {
                     </span>
                 </button>
                 <div className={style}>
-                <button className="bg-dark text-light border-0" onClick={displayCategory}><span className="nav-links">Categories</span></button>
+                {/* <button className="bg-dark text-light border-0" onClick={displayCategory}><span className="nav-links">Categories</span></button>
                  <div className={display}>
 
-                </div> 
+                </div>  */}
+                <Link className="nav-links"  href={'/categories'}>Categories</Link>
 <Link className="nav-links"  href={'/Contact-us'}>Contact</Link>
                 <Link className="nav-links" href={'/About-us'}>About</Link>
                 <Link className="nav-links" href={'/Privacy-Policy'}>Privacy Policy</Link>
                 <Link className="nav-links" href={'/Disclaimer'}>Disclaimer</Link>
                 <Link className="nav-links" href={'/Terms-and-Conditions'}>Terms and Conditions</Link>
-                <Link className="nav-links" href={'https://www.buymeacoffee.com/shreyashrp'}><Image className="cofee" src={"/buyme.svg"} width="32px" height="32px"></Image></Link>
                 </div>
                
             </div>

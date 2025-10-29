@@ -106,7 +106,7 @@ const Post = ({post, categorylist, relatedArticles}) => {
 <ul className='mt-3'>
   {categorylist && categorylist.map(
     (cat)=>(
-      <Link href={`/${cat.title}`} key={cat._id}><a>  <li className='m-3 display-7'>{cat.title}</li></a></Link>
+      <Link href={`/${cat.slug.current}`} key={cat._id}><a>  <li className='m-3 display-7'>{cat.title}</li></a></Link>
     )
   )}
 </ul>
@@ -206,7 +206,8 @@ const query = groq`*[_type == "post" && slug.current == $slug][0]{
 }`
 const categoryquery=groq` *[_type == "category" ]{
   _id,
-  title
+  title,
+  slug
 }`
 const related=groq`*[_type == "related" ]{
   _id,

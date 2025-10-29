@@ -2,6 +2,7 @@ import client from '../../lib/sanity';
 import groq from 'groq';
 import Link from 'next/link';
 import Head from 'next/head';
+import styles from "../../styles/Home.module.css"
 
 
 const Categories = ({blogs}) => {
@@ -14,10 +15,9 @@ const Categories = ({blogs}) => {
       <meta property="og:title" content={blogs[0].title} />
   </Head>
 
-{blogs && blogs.map((blog)=>
+{/* {blogs && blogs.map((blog)=>
 <>
   <h1 className='text-center'>All Posts in {`${blog.title}`} </h1>
-  <p>{`${blog.description}`}</p>
   {blog.posts && blog.posts.map(
     (post)=>(
       <Link key={post._id} href={`${blog.slug}/${post.slug}`}>
@@ -32,7 +32,27 @@ const Categories = ({blogs}) => {
       </Link>
     )
   )}</>
-)}
+)} */}
+<div className='flex flex-col justify-center items-center text-center'>
+   {blogs && blogs.map((blog)=>(<>
+    <h1 className='text-center'>All Posts in {`${blog.title}`} </h1>
+
+          <ul>
+        {blog.posts && blog.posts.map(
+          (post) =>
+            (
+              <li key={post._id} className='m-5 lead p-5 rounded shadow-lg'>
+                <p>
+                <Link href={`${blog.slug}/${post.slug}`}>
+                  <a className={styles.recentanch}>{post.title}</a>
+                </Link>
+                </p>
+              </li>
+            )
+        )}
+        </ul>
+  </>) )}
+</div>
 
     </>
    );
